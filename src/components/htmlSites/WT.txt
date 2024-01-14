@@ -1,0 +1,27 @@
+<app-content-inside _ngcontent-sc87="" _nghost-sc56="" class="">
+    <div _ngcontent-sc56="" class="row">
+        <div _ngcontent-sc56="" class="col-12">
+            <div _ngcontent-sc56="" class="document-inside" lang="pl">
+                <div class="a_hd">
+                    <h2>
+                        <div class="a_nm">ROZPORZĄDZENIE</div>
+                        <div class="a_aut">
+                            MINISTRA ROZWOJU <span class="fn-ref" id="ref-przyp_1">1</span>
+                        </div>
+                        <div class="a_day">z dnia 11 września 2020 r.</div>
+                        <div class="a_tl">
+                            w sprawie szczegółowego zakresu i formy projektu budowlanego <span class="fn-ref" id="ref-przyp_2">2</span>
+                        </div>
+                    </h2>
+                </div>
+                <div class="a_intro">
+                    <span>
+                        Na podstawie <a href="/akty-prawne/dzu-dziennik-ustaw/prawo-budowlane-16796118/art-34" class="act document-link">art. 34 ust. 6 pkt 1</a>
+                        ustawy z dnia 7 lipca 1994 r. - Prawo budowlane (Dz. U. z 2021 r. poz. 2351 oraz z 2022 r. poz. 88 i 1557) zarządza się, co następuje:
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</app-content-inside>

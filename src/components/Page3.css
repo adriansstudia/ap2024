@@ -1,0 +1,65 @@
+/* src/components/Page3.css */
+
+
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Set a transparent background color */
+    overflow-x: hidden;
+    height: 0;
+    display: flex;
+    align-items: center;
+    transition: height 0.3s ease;
+  }
+  
+  .fixed-bottom.open {
+    height: 50vh;
+  }
+
+  .fixed-left {
+    position: fixed;
+    top: 50vh;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    transition: width 0.3s ease;
+  }
+  
+  .table-of-contents {
+    width: 0; /* Default width */
+    overflow: hidden;
+    transition: width 0.3s ease;
+  }
+  
+  .table-of-contents.open {
+    width: 200px; /* Width when open */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Add the following styles for the button */
+  .fixed-left-button {
+    position: fixed;
+    top: 50vh;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  
+/* Add styling for the container of HTML content */
+.html-content-container {
+    margin: 100px; /* Adjust the margin to create an offset */
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 10px; /* Adjust the border-radius for rounded corners */
+    background-color: white; /* Set a background color if needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
