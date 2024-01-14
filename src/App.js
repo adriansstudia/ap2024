@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/law/:id" render={({ match }) => (
           <LegalPage lawRegulation={lawRegulations[match.params.id - 1]} />
         )} />
-        <Route path="/ap2024" component={Page3} /> {/* Add the new route for Page 3 */}
+        <Route path="/ap2024/" component={Page3} /> {/* Add the new route for Page 3 */}
       </Switch>
     </Router>
   );
